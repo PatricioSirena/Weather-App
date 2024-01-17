@@ -27,9 +27,9 @@ function App() {
             ...prevState,
             pais: data.sys.country,
             ciudad: data.name,
-            temperatura: data.main.temp,
-            temp_min: data.main.temp_min,
-            temp_max: data.main.temp_max,
+            temperatura: (data.main.temp - 220),
+            temp_min: (data.main.temp_min - 220),
+            temp_max: (data.main.temp_max - 220),
             humedad: data.main.humidity,
             clima: data.weather[0].description
           }));
