@@ -49,8 +49,8 @@ const CardInfo = ({ data }) => {
           <img className='imagen_clima' src={imagen} alt="" />
         </div>
           <div className='humedad'>
-            <p>{data.humedad}%</p>
             <p>Probabilidad de lluvia</p>
+            <p>{data.humedad}%</p>
           </div>
         <div className="tempContainer">
           <p className="temp">{gradosCent.toFixed(1)}°</p>
