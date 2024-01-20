@@ -75,17 +75,3 @@ CardInfo.propTypes = {
 }
 
 export default CardInfo
-
-{/* <Card className="card_comp onent bg-dark text-white mt-3">
-    <Card.Img className='card_image' src={clima} alt="Card image" />
-    <Card.ImgOverlay className='card_body'>
-      <Card.Title className='card_city'>{data.ciudad}</Card.Title>
-      <Card.Title className='card_country'>{data.pais}</Card.Title>
-    </Card.ImgOverlay>
-      <Card.Text className='card_footer'>
-        <p>{data.temperatura}</p>
-        <p>{data.temp_max}</p>
-        <p>{data.temp_min}</p>
-        <p>{data.humedad}</p>
-      </Card.Text>
-  </Card> */}
